@@ -15,7 +15,7 @@ jobs:
 workflows:
   build:
     jobs:
-      - build
+      - build:
           filters:
             branches:
               only: my2.7.x
